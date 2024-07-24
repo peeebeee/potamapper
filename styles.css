@@ -1,0 +1,29 @@
+h1 {
+  text-decoration: underline;
+}
+
+html,
+body,
+#container {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+#map {
+  width: auto;
+  height: 100%;
+  z-index: 1;
+}
+
+.countryLabel {
+  background: #ece7e700;
+  fill: aqua;
+  opacity: 0;
+  border: 2;
+  border-radius: 0px;
+  box-shadow: 0 0px 0px;
+}
+
+.searchbox {
+  z-index: 9;
+}
